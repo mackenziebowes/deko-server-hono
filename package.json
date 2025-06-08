@@ -1,0 +1,22 @@
+{
+	"name": "server",
+	"scripts": {
+		"dev": "bun run --hot src/index.ts",
+		"trl": "bun run --hot src/client/route-loader.ts",
+		"local": "bun run",
+		"gen:env": "bun run src/local/generate_env",
+		"gen:type:post": "bun run src/local/cms/post",
+		"gen:user": "bun run src/local/user/add_dev"
+	},
+	"dependencies": {
+		"@ods/db": "../prisma",
+		"@types/nodemailer": "^6.4.17",
+		"hono": "^4.7.10",
+		"jose": "^6.0.11",
+		"nodemailer": "^7.0.3",
+		"solid-js": "^1.9.7"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	}
+}
