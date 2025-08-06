@@ -1,3 +1,3 @@
-import { PrismaClient } from "@ods/db";
+import { PrismaClient } from "@deko/db";
 
 export const db = new PrismaClient();
