@@ -9,7 +9,7 @@
 		"gen:user": "bun run src/local/user/add_dev"
 	},
 	"dependencies": {
-		"@ods/db": "../prisma",
+		"@deko/prisma": "../prisma",
 		"@types/nodemailer": "^6.4.17",
 		"hono": "^4.7.10",
 		"jose": "^6.0.11",
