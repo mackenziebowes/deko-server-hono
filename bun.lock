@@ -4,7 +4,7 @@
     "": {
       "name": "server",
       "dependencies": {
-        "@deko/prisma": "../prisma",
+        "@deko/db": "../prisma",
         "@types/nodemailer": "^6.4.17",
         "hono": "^4.7.10",
         "jose": "^6.0.11",
@@ -17,7 +17,7 @@
     },
   },
   "packages": {
-    "@deko/prisma": ["@deko/orm-prisma@file:../prisma", { "dependencies": { "@prisma/client": "^6.9.0" }, "devDependencies": { "prisma": "^6.9.0" } }],
+    "@deko/db": ["@deko/orm-prisma@file:../prisma", { "dependencies": { "@prisma/client": "^6.9.0" }, "devDependencies": { "prisma": "^6.9.0" } }],
 
     "@prisma/client": ["@prisma/client@6.9.0", "", { "peerDependencies": { "prisma": "*", "typescript": ">=5.1.0" }, "optionalPeers": ["prisma", "typescript"] }, "sha512-Gg7j1hwy3SgF1KHrh0PZsYvAaykeR0PaxusnLXydehS96voYCGt1U5zVR31NIouYc63hWzidcrir1a7AIyCsNQ=="],
 

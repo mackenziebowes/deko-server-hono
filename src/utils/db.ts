@@ -1,3 +1,3 @@
-import { PrismaClient } from "@deko/orm-prisma";
+import { PrismaClient } from "@deko/db";
 
 export const db = new PrismaClient();
